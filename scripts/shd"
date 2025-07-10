@@ -1,0 +1,177 @@
+Jun 24 14:22:23 kali systemd[1]: Starting ssh.service - OpenBSD Secure Shell server...
+Jun 24 14:22:23 kali sshd[34619]: Server listening on 0.0.0.0 port 22.
+Jun 24 14:22:23 kali sshd[34619]: Server listening on :: port 22.
+Jun 24 14:22:23 kali systemd[1]: Started ssh.service - OpenBSD Secure Shell server.
+Jun 24 14:22:39 kali unix_chkpwd[34747]: [0;1;39m[0;1;31m[0;1;39mpassword check failed for user (hacker)[0m
+Jun 24 14:22:39 kali sshd-session[34665]: [0;1;39m[0;1;31m[0;1;39mpam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=::1  user=hacker[0m
+Jun 24 14:22:39 kali sshd-session[34665]: [0;38;5;245m[0;1;31m[0;38;5;245mpam_winbind(sshd:auth): getting password (0x00000388)[0m
+Jun 24 14:22:39 kali sshd-session[34665]: [0;38;5;245m[0;1;31m[0;38;5;245mpam_winbind(sshd:auth): pam_get_item returned a password[0m
+Jun 24 14:22:39 kali sshd-session[34665]: [0;1;31m[0;1;39m[0;1;31mpam_winbind(sshd:auth): request wbcLogonUser failed: WBC_ERR_WINBIND_NOT_AVAILABLE, PAM error: PAM_AUTHINFO_UNAVAIL (9)![0m
+Jun 24 14:22:39 kali sshd-session[34665]: [0;1;31m[0;1;39m[0;1;31mpam_winbind(sshd:auth): internal module error (retval = PAM_AUTHINFO_UNAVAIL(9), user = 'hacker')[0m
+Jun 24 14:22:40 kali sshd-session[34665]: Failed password for hacker from ::1 port 35768 ssh2
+Jun 24 14:22:41 kali sshd-session[34665]: Failed password for hacker from ::1 port 35768 ssh2
+Jun 24 14:22:41 kali sshd-session[34665]: Failed password for hacker from ::1 port 35768 ssh2
+Jun 24 14:22:41 kali sshd-session[34665]: Connection closed by authenticating user hacker ::1 port 35768 [preauth]
+Jun 24 14:22:45 kali unix_chkpwd[34803]: [0;1;39m[0;1;31m[0;1;39mpassword check failed for user (hacker)[0m
+Jun 24 14:22:45 kali sshd-session[34793]: [0;1;39m[0;1;31m[0;1;39mpam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=::1  user=hacker[0m
+Jun 24 14:22:45 kali sshd-session[34793]: [0;38;5;245m[0;1;31m[0;38;5;245mpam_winbind(sshd:auth): getting password (0x00000388)[0m
+Jun 24 14:22:45 kali sshd-session[34793]: [0;38;5;245m[0;1;31m[0;38;5;245mpam_winbind(sshd:auth): pam_get_item returned a password[0m
+Jun 24 14:22:45 kali sshd-session[34793]: [0;1;31m[0;1;39m[0;1;31mpam_winbind(sshd:auth): request wbcLogonUser failed: WBC_ERR_WINBIND_NOT_AVAILABLE, PAM error: PAM_AUTHINFO_UNAVAIL (9)![0m
+Jun 24 14:22:45 kali sshd-session[34793]: [0;1;31m[0;1;39m[0;1;31mpam_winbind(sshd:auth): internal module error (retval = PAM_AUTHINFO_UNAVAIL(9), user = 'hacker')[0m
+Jun 24 14:22:47 kali sshd-session[34793]: Failed password for hacker from ::1 port 50404 ssh2
+Jun 24 14:22:50 kali unix_chkpwd[34844]: [0;1;39m[0;1;31m[0;1;39mpassword check failed for user (hacker)[0m
+Jun 24 14:22:50 kali sshd-session[34793]: [0;38;5;245m[0;1;31m[0;38;5;245mpam_winbind(sshd:auth): getting password (0x00000388)[0m
+Jun 24 14:22:50 kali sshd-session[34793]: [0;38;5;245m[0;1;31m[0;38;5;245mpam_winbind(sshd:auth): pam_get_item returned a password[0m
+Jun 24 14:22:50 kali sshd-session[34793]: [0;1;31m[0;1;39m[0;1;31mpam_winbind(sshd:auth): request wbcLogonUser failed: WBC_ERR_WINBIND_NOT_AVAILABLE, PAM error: PAM_AUTHINFO_UNAVAIL (9)![0m
+Jun 24 14:22:50 kali sshd-session[34793]: [0;1;31m[0;1;39m[0;1;31mpam_winbind(sshd:auth): internal module error (retval = PAM_AUTHINFO_UNAVAIL(9), user = 'hacker')[0m
+Jun 24 14:22:52 kali sshd-session[34793]: Failed password for hacker from ::1 port 50404 ssh2
+Jun 24 14:22:55 kali unix_chkpwd[34885]: [0;1;39m[0;1;31m[0;1;39mpassword check failed for user (hacker)[0m
+Jun 24 14:22:55 kali sshd-session[34793]: [0;38;5;245m[0;1;31m[0;38;5;245mpam_winbind(sshd:auth): getting password (0x00000388)[0m
+Jun 24 14:22:55 kali sshd-session[34793]: [0;38;5;245m[0;1;31m[0;38;5;245mpam_winbind(sshd:auth): pam_get_item returned a password[0m
+Jun 24 14:22:55 kali sshd-session[34793]: [0;1;31m[0;1;39m[0;1;31mpam_winbind(sshd:auth): request wbcLogonUser failed: WBC_ERR_WINBIND_NOT_AVAILABLE, PAM error: PAM_AUTHINFO_UNAVAIL (9)![0m
+Jun 24 14:22:55 kali sshd-session[34793]: [0;1;31m[0;1;39m[0;1;31mpam_winbind(sshd:auth): internal module error (retval = PAM_AUTHINFO_UNAVAIL(9), user = 'hacker')[0m
+Jun 24 14:22:57 kali sshd-session[34793]: Failed password for hacker from ::1 port 50404 ssh2
+Jun 24 14:22:59 kali sshd-session[34793]: Connection closed by authenticating user hacker ::1 port 50404 [preauth]
+Jun 24 14:22:59 kali sshd-session[34793]: [0;1;39m[0;1;31m[0;1;39mPAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=::1  user=hacker[0m
+Jun 24 14:23:02 kali unix_chkpwd[34946]: [0;1;39m[0;1;31m[0;1;39mpassword check failed for user (hacker)[0m
+Jun 24 14:23:02 kali sshd-session[34936]: [0;1;39m[0;1;31m[0;1;39mpam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=::1  user=hacker[0m
+Jun 24 14:23:02 kali sshd-session[34936]: [0;38;5;245m[0;1;31m[0;38;5;245mpam_winbind(sshd:auth): getting password (0x00000388)[0m
+Jun 24 14:23:02 kali sshd-session[34936]: [0;38;5;245m[0;1;31m[0;38;5;245mpam_winbind(sshd:auth): pam_get_item returned a password[0m
+Jun 24 14:23:02 kali sshd-session[34936]: [0;1;31m[0;1;39m[0;1;31mpam_winbind(sshd:auth): request wbcLogonUser failed: WBC_ERR_WINBIND_NOT_AVAILABLE, PAM error: PAM_AUTHINFO_UNAVAIL (9)![0m
+Jun 24 14:23:02 kali sshd-session[34936]: [0;1;31m[0;1;39m[0;1;31mpam_winbind(sshd:auth): internal module error (retval = PAM_AUTHINFO_UNAVAIL(9), user = 'hacker')[0m
+Jun 24 14:23:04 kali sshd-session[34936]: Failed password for hacker from ::1 port 55200 ssh2
+Jun 24 14:23:05 kali unix_chkpwd[34971]: [0;1;39m[0;1;31m[0;1;39mpassword check failed for user (hacker)[0m
+Jun 24 14:23:05 kali sshd-session[34936]: [0;38;5;245m[0;1;31m[0;38;5;245mpam_winbind(sshd:auth): getting password (0x00000388)[0m
+Jun 24 14:23:05 kali sshd-session[34936]: [0;38;5;245m[0;1;31m[0;38;5;245mpam_winbind(sshd:auth): pam_get_item returned a password[0m
+Jun 24 14:23:05 kali sshd-session[34936]: [0;1;31m[0;1;39m[0;1;31mpam_winbind(sshd:auth): request wbcLogonUser failed: WBC_ERR_WINBIND_NOT_AVAILABLE, PAM error: PAM_AUTHINFO_UNAVAIL (9)![0m
+Jun 24 14:23:05 kali sshd-session[34936]: [0;1;31m[0;1;39m[0;1;31mpam_winbind(sshd:auth): internal module error (retval = PAM_AUTHINFO_UNAVAIL(9), user = 'hacker')[0m
+Jun 24 14:23:08 kali sshd-session[34936]: Failed password for hacker from ::1 port 55200 ssh2
+Jun 24 14:23:11 kali sshd-session[34936]: [0;38;5;245m[0;1;31m[0;38;5;245mpam_winbind(sshd:auth): getting password (0x00000388)[0m
+Jun 24 14:23:11 kali sshd-session[34936]: [0;38;5;245m[0;1;31m[0;38;5;245mpam_winbind(sshd:auth): pam_get_item returned a password[0m
+Jun 24 14:23:11 kali sshd-session[34936]: [0;1;31m[0;1;39m[0;1;31mpam_winbind(sshd:auth): request wbcLogonUser failed: WBC_ERR_WINBIND_NOT_AVAILABLE, PAM error: PAM_AUTHINFO_UNAVAIL (9)![0m
+Jun 24 14:23:11 kali sshd-session[34936]: [0;1;31m[0;1;39m[0;1;31mpam_winbind(sshd:auth): internal module error (retval = PAM_AUTHINFO_UNAVAIL(9), user = 'hacker')[0m
+Jun 24 14:23:13 kali sshd-session[34936]: Failed password for hacker from ::1 port 55200 ssh2
+Jun 24 14:23:15 kali sshd-session[34936]: Connection closed by authenticating user hacker ::1 port 55200 [preauth]
+Jun 24 14:23:15 kali sshd-session[34936]: [0;1;39m[0;1;31m[0;1;39mPAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=::1  user=hacker[0m
+Jun 24 14:23:20 kali unix_chkpwd[35098]: [0;1;39m[0;1;31m[0;1;39mpassword check failed for user (hacker)[0m
+Jun 24 14:23:20 kali sshd-session[35080]: [0;1;39m[0;1;31m[0;1;39mpam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=::1  user=hacker[0m
+Jun 24 14:23:20 kali sshd-session[35080]: [0;38;5;245m[0;1;31m[0;38;5;245mpam_winbind(sshd:auth): getting password (0x00000388)[0m
+Jun 24 14:23:20 kali sshd-session[35080]: [0;38;5;245m[0;1;31m[0;38;5;245mpam_winbind(sshd:auth): pam_get_item returned a password[0m
+Jun 24 14:23:20 kali sshd-session[35080]: [0;1;31m[0;1;39m[0;1;31mpam_winbind(sshd:auth): request wbcLogonUser failed: WBC_ERR_WINBIND_NOT_AVAILABLE, PAM error: PAM_AUTHINFO_UNAVAIL (9)![0m
+Jun 24 14:23:20 kali sshd-session[35080]: [0;1;31m[0;1;39m[0;1;31mpam_winbind(sshd:auth): internal module error (retval = PAM_AUTHINFO_UNAVAIL(9), user = 'hacker')[0m
+Jun 24 14:23:22 kali sshd-session[35080]: Failed password for hacker from ::1 port 46240 ssh2
+Jun 24 14:23:24 kali unix_chkpwd[35124]: [0;1;39m[0;1;31m[0;1;39mpassword check failed for user (hacker)[0m
+Jun 24 14:23:24 kali sshd-session[35080]: [0;38;5;245m[0;1;31m[0;38;5;245mpam_winbind(sshd:auth): getting password (0x00000388)[0m
+Jun 24 14:23:24 kali sshd-session[35080]: [0;38;5;245m[0;1;31m[0;38;5;245mpam_winbind(sshd:auth): pam_get_item returned a password[0m
+Jun 24 14:23:24 kali sshd-session[35080]: [0;1;31m[0;1;39m[0;1;31mpam_winbind(sshd:auth): request wbcLogonUser failed: WBC_ERR_WINBIND_NOT_AVAILABLE, PAM error: PAM_AUTHINFO_UNAVAIL (9)![0m
+Jun 24 14:23:24 kali sshd-session[35080]: [0;1;31m[0;1;39m[0;1;31mpam_winbind(sshd:auth): internal module error (retval = PAM_AUTHINFO_UNAVAIL(9), user = 'hacker')[0m
+Jun 24 14:23:26 kali sshd-session[35080]: Failed password for hacker from ::1 port 46240 ssh2
+Jun 24 14:23:34 kali sshd-session[35080]: Failed password for hacker from ::1 port 46240 ssh2
+Jun 24 14:23:34 kali sshd-session[35080]: Connection closed by authenticating user hacker ::1 port 46240 [preauth]
+Jun 24 14:23:34 kali sshd-session[35080]: [0;1;39m[0;1;31m[0;1;39mPAM 1 more authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=::1  user=hacker[0m
+Jun 24 14:26:50 kali unix_chkpwd[36761]: [0;1;39m[0;1;31m[0;1;39mpassword check failed for user (hacker)[0m
+Jun 24 14:26:50 kali sshd-session[36743]: [0;1;39m[0;1;31m[0;1;39mpam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=::1  user=hacker[0m
+Jun 24 14:26:50 kali sshd-session[36743]: [0;38;5;245m[0;1;31m[0;38;5;245mpam_winbind(sshd:auth): getting password (0x00000388)[0m
+Jun 24 14:26:50 kali sshd-session[36743]: [0;38;5;245m[0;1;31m[0;38;5;245mpam_winbind(sshd:auth): pam_get_item returned a password[0m
+Jun 24 14:26:50 kali sshd-session[36743]: [0;1;31m[0;1;39m[0;1;31mpam_winbind(sshd:auth): request wbcLogonUser failed: WBC_ERR_WINBIND_NOT_AVAILABLE, PAM error: PAM_AUTHINFO_UNAVAIL (9)![0m
+Jun 24 14:26:50 kali sshd-session[36743]: [0;1;31m[0;1;39m[0;1;31mpam_winbind(sshd:auth): internal module error (retval = PAM_AUTHINFO_UNAVAIL(9), user = 'hacker')[0m
+Jun 24 14:26:52 kali sshd-session[36743]: Failed password for hacker from ::1 port 59986 ssh2
+Jun 24 14:26:55 kali sshd-session[36743]: [0;38;5;245m[0;1;31m[0;38;5;245mpam_winbind(sshd:auth): getting password (0x00000388)[0m
+Jun 24 14:26:55 kali sshd-session[36743]: [0;38;5;245m[0;1;31m[0;38;5;245mpam_winbind(sshd:auth): pam_get_item returned a password[0m
+Jun 24 14:26:55 kali sshd-session[36743]: [0;1;31m[0;1;39m[0;1;31mpam_winbind(sshd:auth): request wbcLogonUser failed: WBC_ERR_WINBIND_NOT_AVAILABLE, PAM error: PAM_AUTHINFO_UNAVAIL (9)![0m
+Jun 24 14:26:55 kali sshd-session[36743]: [0;1;31m[0;1;39m[0;1;31mpam_winbind(sshd:auth): internal module error (retval = PAM_AUTHINFO_UNAVAIL(9), user = 'hacker')[0m
+Jun 24 14:26:57 kali sshd-session[36743]: Failed password for hacker from ::1 port 59986 ssh2
+Jun 24 14:27:00 kali sshd-session[36743]: [0;38;5;245m[0;1;31m[0;38;5;245mpam_winbind(sshd:auth): getting password (0x00000388)[0m
+Jun 24 14:27:00 kali sshd-session[36743]: [0;38;5;245m[0;1;31m[0;38;5;245mpam_winbind(sshd:auth): pam_get_item returned a password[0m
+Jun 24 14:27:00 kali sshd-session[36743]: [0;1;31m[0;1;39m[0;1;31mpam_winbind(sshd:auth): request wbcLogonUser failed: WBC_ERR_WINBIND_NOT_AVAILABLE, PAM error: PAM_AUTHINFO_UNAVAIL (9)![0m
+Jun 24 14:27:00 kali sshd-session[36743]: [0;1;31m[0;1;39m[0;1;31mpam_winbind(sshd:auth): internal module error (retval = PAM_AUTHINFO_UNAVAIL(9), user = 'hacker')[0m
+Jun 24 14:27:03 kali sshd-session[36743]: Failed password for hacker from ::1 port 59986 ssh2
+Jun 24 14:27:04 kali sshd-session[36743]: Connection closed by authenticating user hacker ::1 port 59986 [preauth]
+Jun 24 14:27:04 kali sshd-session[36743]: [0;1;39m[0;1;31m[0;1;39mPAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=::1  user=hacker[0m
+Jun 24 14:27:07 kali sshd-session[36888]: [0;1;39m[0;1;31m[0;1;39mpam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=::1  user=hacker[0m
+Jun 24 14:27:07 kali sshd-session[36888]: [0;38;5;245m[0;1;31m[0;38;5;245mpam_winbind(sshd:auth): getting password (0x00000388)[0m
+Jun 24 14:27:07 kali sshd-session[36888]: [0;38;5;245m[0;1;31m[0;38;5;245mpam_winbind(sshd:auth): pam_get_item returned a password[0m
+Jun 24 14:27:07 kali sshd-session[36888]: [0;1;31m[0;1;39m[0;1;31mpam_winbind(sshd:auth): request wbcLogonUser failed: WBC_ERR_WINBIND_NOT_AVAILABLE, PAM error: PAM_AUTHINFO_UNAVAIL (9)![0m
+Jun 24 14:27:07 kali sshd-session[36888]: [0;1;31m[0;1;39m[0;1;31mpam_winbind(sshd:auth): internal module error (retval = PAM_AUTHINFO_UNAVAIL(9), user = 'hacker')[0m
+Jun 24 14:27:10 kali sshd-session[36888]: Failed password for hacker from ::1 port 54012 ssh2
+Jun 24 14:27:12 kali sshd-session[36888]: [0;38;5;245m[0;1;31m[0;38;5;245mpam_winbind(sshd:auth): getting password (0x00000388)[0m
+Jun 24 14:27:12 kali sshd-session[36888]: [0;38;5;245m[0;1;31m[0;38;5;245mpam_winbind(sshd:auth): pam_get_item returned a password[0m
+Jun 24 14:27:12 kali sshd-session[36888]: [0;1;31m[0;1;39m[0;1;31mpam_winbind(sshd:auth): request wbcLogonUser failed: WBC_ERR_WINBIND_NOT_AVAILABLE, PAM error: PAM_AUTHINFO_UNAVAIL (9)![0m
+Jun 24 14:27:12 kali sshd-session[36888]: [0;1;31m[0;1;39m[0;1;31mpam_winbind(sshd:auth): internal module error (retval = PAM_AUTHINFO_UNAVAIL(9), user = 'hacker')[0m
+Jun 24 14:27:14 kali sshd-session[36888]: Failed password for hacker from ::1 port 54012 ssh2
+Jun 24 14:27:17 kali unix_chkpwd[36980]: [0;1;39m[0;1;31m[0;1;39mpassword check failed for user (hacker)[0m
+Jun 24 14:27:17 kali sshd-session[36888]: [0;38;5;245m[0;1;31m[0;38;5;245mpam_winbind(sshd:auth): getting password (0x00000388)[0m
+Jun 24 14:27:17 kali sshd-session[36888]: [0;38;5;245m[0;1;31m[0;38;5;245mpam_winbind(sshd:auth): pam_get_item returned a password[0m
+Jun 24 14:27:17 kali sshd-session[36888]: [0;1;31m[0;1;39m[0;1;31mpam_winbind(sshd:auth): request wbcLogonUser failed: WBC_ERR_WINBIND_NOT_AVAILABLE, PAM error: PAM_AUTHINFO_UNAVAIL (9)![0m
+Jun 24 14:27:17 kali sshd-session[36888]: [0;1;31m[0;1;39m[0;1;31mpam_winbind(sshd:auth): internal module error (retval = PAM_AUTHINFO_UNAVAIL(9), user = 'hacker')[0m
+Jun 24 14:27:19 kali sshd-session[36888]: Failed password for hacker from ::1 port 54012 ssh2
+Jun 24 14:27:19 kali sshd-session[36888]: Connection closed by authenticating user hacker ::1 port 54012 [preauth]
+Jun 24 14:27:19 kali sshd-session[36888]: [0;1;39m[0;1;31m[0;1;39mPAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=::1  user=hacker[0m
+Jun 24 14:29:42 kali unix_chkpwd[38167]: [0;1;39m[0;1;31m[0;1;39mpassword check failed for user (hacker)[0m
+Jun 24 14:29:42 kali sshd-session[38149]: [0;1;39m[0;1;31m[0;1;39mpam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=::1  user=hacker[0m
+Jun 24 14:29:42 kali sshd-session[38149]: [0;38;5;245m[0;1;31m[0;38;5;245mpam_winbind(sshd:auth): getting password (0x00000388)[0m
+Jun 24 14:29:42 kali sshd-session[38149]: [0;38;5;245m[0;1;31m[0;38;5;245mpam_winbind(sshd:auth): pam_get_item returned a password[0m
+Jun 24 14:29:42 kali sshd-session[38149]: [0;1;31m[0;1;39m[0;1;31mpam_winbind(sshd:auth): request wbcLogonUser failed: WBC_ERR_WINBIND_NOT_AVAILABLE, PAM error: PAM_AUTHINFO_UNAVAIL (9)![0m
+Jun 24 14:29:42 kali sshd-session[38149]: [0;1;31m[0;1;39m[0;1;31mpam_winbind(sshd:auth): internal module error (retval = PAM_AUTHINFO_UNAVAIL(9), user = 'hacker')[0m
+Jun 24 14:29:44 kali sshd-session[38149]: Failed password for hacker from ::1 port 59816 ssh2
+Jun 24 14:29:45 kali sshd-session[38149]: Failed password for hacker from ::1 port 59816 ssh2
+Jun 24 14:29:45 kali sshd-session[38149]: Failed password for hacker from ::1 port 59816 ssh2
+Jun 24 14:29:45 kali sshd-session[38149]: Connection closed by authenticating user hacker ::1 port 59816 [preauth]
+Jun 24 14:29:45 kali sshd-session[38193]: Failed password for hacker from ::1 port 59818 ssh2
+Jun 24 14:29:46 kali sshd-session[38193]: Failed password for hacker from ::1 port 59818 ssh2
+Jun 24 14:29:46 kali sshd-session[38193]: Connection closed by authenticating user hacker ::1 port 59818 [preauth]
+Jun 24 14:29:46 kali sshd-session[38196]: Failed password for hacker from ::1 port 51010 ssh2
+Jun 24 14:29:46 kali sshd-session[38196]: Failed password for hacker from ::1 port 51010 ssh2
+Jun 24 14:29:46 kali sshd-session[38196]: Connection closed by authenticating user hacker ::1 port 51010 [preauth]
+Jun 24 14:29:47 kali sshd-session[38207]: Failed password for hacker from ::1 port 51020 ssh2
+Jun 24 14:29:47 kali sshd-session[38207]: Failed password for hacker from ::1 port 51020 ssh2
+Jun 24 14:29:47 kali sshd-session[38207]: Connection closed by authenticating user hacker ::1 port 51020 [preauth]
+Jun 24 14:29:47 kali sshd-session[38210]: Failed password for hacker from ::1 port 51026 ssh2
+Jun 24 14:29:47 kali sshd-session[38210]: Failed password for hacker from ::1 port 51026 ssh2
+Jun 24 14:29:47 kali sshd-session[38210]: Connection closed by authenticating user hacker ::1 port 51026 [preauth]
+Jun 24 14:29:47 kali sshd[34619]: drop connection #0 from [::1]:51042 on [::1]:22 penalty: failed authentication
+Jun 24 14:31:10 kali sshd-session[38860]: Invalid user failuser from 127.0.0.1 port 38534
+Jun 24 14:31:11 kali sshd-session[38860]: [0;1;39m[0;1;31m[0;1;39mpam_unix(sshd:auth): check pass; user unknown[0m
+Jun 24 14:31:11 kali sshd-session[38860]: [0;1;39m[0;1;31m[0;1;39mpam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=127.0.0.1[0m
+Jun 24 14:31:11 kali sshd-session[38860]: [0;38;5;245m[0;1;31m[0;38;5;245mpam_winbind(sshd:auth): getting password (0x00000388)[0m
+Jun 24 14:31:11 kali sshd-session[38860]: [0;38;5;245m[0;1;31m[0;38;5;245mpam_winbind(sshd:auth): pam_get_item returned a password[0m
+Jun 24 14:31:13 kali sshd-session[38860]: Failed password for invalid user failuser from 127.0.0.1 port 38534 ssh2
+Jun 24 14:31:16 kali sshd-session[38860]: Failed password for invalid user failuser from 127.0.0.1 port 38534 ssh2
+Jun 24 14:31:16 kali sshd-session[38860]: Failed password for invalid user failuser from 127.0.0.1 port 38534 ssh2
+Jun 24 14:31:16 kali sshd-session[38860]: Connection closed by invalid user failuser 127.0.0.1 port 38534 [preauth]
+Jun 24 14:31:18 kali sshd-session[38946]: Invalid user failuser from 127.0.0.1 port 39990
+Jun 24 14:31:18 kali sshd-session[38946]: Failed none for invalid user failuser from 127.0.0.1 port 39990 ssh2
+Jun 24 14:31:18 kali sshd-session[38946]: Failed password for invalid user failuser from 127.0.0.1 port 39990 ssh2
+Jun 24 14:31:18 kali sshd-session[38946]: Failed password for invalid user failuser from 127.0.0.1 port 39990 ssh2
+Jun 24 14:31:18 kali sshd-session[38946]: Connection closed by invalid user failuser 127.0.0.1 port 39990 [preauth]
+Jun 24 14:31:20 kali sshd-session[38967]: Invalid user failuser from 127.0.0.1 port 40000
+Jun 24 14:31:20 kali sshd-session[38967]: Failed none for invalid user failuser from 127.0.0.1 port 40000 ssh2
+Jun 24 14:31:20 kali sshd-session[38967]: Failed password for invalid user failuser from 127.0.0.1 port 40000 ssh2
+Jun 24 14:31:20 kali sshd-session[38967]: Failed password for invalid user failuser from 127.0.0.1 port 40000 ssh2
+Jun 24 14:31:20 kali sshd-session[38967]: Connection closed by invalid user failuser 127.0.0.1 port 40000 [preauth]
+Jun 24 14:31:22 kali sshd-session[38988]: Invalid user failuser from 127.0.0.1 port 40012
+Jun 24 14:31:22 kali sshd-session[38988]: Failed none for invalid user failuser from 127.0.0.1 port 40012 ssh2
+Jun 24 14:31:22 kali sshd-session[38988]: Failed password for invalid user failuser from 127.0.0.1 port 40012 ssh2
+Jun 24 14:31:22 kali sshd-session[38988]: Failed password for invalid user failuser from 127.0.0.1 port 40012 ssh2
+Jun 24 14:31:22 kali sshd-session[38988]: Connection closed by invalid user failuser 127.0.0.1 port 40012 [preauth]
+Jun 24 14:31:24 kali sshd-session[39009]: Invalid user failuser from 127.0.0.1 port 40024
+Jun 24 14:31:24 kali sshd-session[39009]: Failed none for invalid user failuser from 127.0.0.1 port 40024 ssh2
+Jun 24 14:31:24 kali sshd-session[39009]: Failed password for invalid user failuser from 127.0.0.1 port 40024 ssh2
+Jun 24 14:31:25 kali sshd-session[39009]: Failed password for invalid user failuser from 127.0.0.1 port 40024 ssh2
+Jun 24 14:31:25 kali sshd-session[39009]: Connection closed by invalid user failuser 127.0.0.1 port 40024 [preauth]
+Jun 24 14:31:26 kali sshd[34619]: drop connection #0 from [127.0.0.1]:59730 on [127.0.0.1]:22 penalty: failed authentication
+Jun 24 14:31:29 kali sshd[34619]: drop connection #0 from [127.0.0.1]:59736 on [127.0.0.1]:22 penalty: failed authentication
+Jun 24 14:36:01 kali sshd-session[41217]: Failed password for hacker from 127.0.0.1 port 49222 ssh2
+Jun 24 14:36:01 kali sshd-session[41217]: Failed password for hacker from 127.0.0.1 port 49222 ssh2
+Jun 24 14:36:01 kali sshd-session[41217]: Connection closed by authenticating user hacker 127.0.0.1 port 49222 [preauth]
+Jun 24 14:36:01 kali sshd-session[41228]: Failed password for hacker from 127.0.0.1 port 49232 ssh2
+Jun 24 14:36:01 kali sshd-session[41228]: Failed password for hacker from 127.0.0.1 port 49232 ssh2
+Jun 24 14:36:01 kali sshd-session[41228]: Connection closed by authenticating user hacker 127.0.0.1 port 49232 [preauth]
+Jun 24 14:36:02 kali sshd-session[41239]: Failed password for hacker from 127.0.0.1 port 49240 ssh2
+Jun 24 14:36:02 kali sshd-session[41239]: Failed password for hacker from 127.0.0.1 port 49240 ssh2
+Jun 24 14:36:02 kali sshd-session[41239]: Connection closed by authenticating user hacker 127.0.0.1 port 49240 [preauth]
+Jun 24 14:36:02 kali sshd-session[41242]: Failed password for hacker from 127.0.0.1 port 49252 ssh2
+Jun 24 14:36:03 kali sshd-session[41242]: Failed password for hacker from 127.0.0.1 port 49252 ssh2
+Jun 24 14:36:03 kali sshd-session[41242]: Connection closed by authenticating user hacker 127.0.0.1 port 49252 [preauth]
+Jun 24 14:36:03 kali sshd[34619]: drop connection #0 from [127.0.0.1]:49266 on [127.0.0.1]:22 penalty: failed authentication
+Jun 24 14:36:03 kali sshd[34619]: drop connection #0 from [127.0.0.1]:49282 on [127.0.0.1]:22 penalty: failed authentication

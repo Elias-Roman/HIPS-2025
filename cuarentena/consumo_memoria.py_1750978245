@@ -1,0 +1,6 @@
+# /tmp/consumo_memoria.py
+a = []
+for _ in range(500):
+    a.append('A' * 1024 * 1024)  # 1 MB por iteración => ~500 MB total
+import time
+time.sleep(120)  # Mantener el proceso vivo durante 2 minutos
